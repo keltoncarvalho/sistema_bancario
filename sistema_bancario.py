@@ -39,7 +39,7 @@ while True:
             valor = float(input('Digite o valor: R$ '))
             print('-'*35)
             if valor < 0:
-                print('VALOR INVÁLIDO!')
+                print('VALOR INVÁLIDO! Tente novamente.')
                 continue
             if opcao == 1:
                 if valor > saldo:
